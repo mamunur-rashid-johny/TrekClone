@@ -2,6 +2,11 @@ package com.johny.trekclone.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
+
+
+val ForestGreen = Color(0xFF228B22)
+
+
 val primaryLight = Color(0xFF456731)
 val onPrimaryLight = Color(0xFFFFFFFF)
 val primaryContainerLight = Color(0xFFC6EEAA)

@@ -251,7 +251,7 @@ data class ColorFamily(
 val unspecified_scheme = ColorFamily(Color.Unspecified, Color.Unspecified, Color.Unspecified, Color.Unspecified)
 
 @Composable
-fun AppTheme(
+fun TrekCloneTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
