@@ -92,8 +92,10 @@ dependencies {
     //</editor-fold>
 
     //<editor-fold desc = "Splash Screen API">
-
     implementation(libs.androidx.splashscreen)
+    //</editor-fold>
 
+    //<editor-fold desc = "Compose Navigation">
+    implementation(libs.navigation.compose)
     //</editor-fold>
 }
