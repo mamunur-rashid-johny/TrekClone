@@ -98,4 +98,8 @@ dependencies {
     //<editor-fold desc = "Compose Navigation">
     implementation(libs.navigation.compose)
     //</editor-fold>
+
+    //<editor-fold>
+    implementation (libs.lottie.compose)
+    //</editor-fold>
 }

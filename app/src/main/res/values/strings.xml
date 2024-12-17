@@ -7,4 +7,22 @@
     <string name="error_serialize">Couldn\'t serialize or deserialize data.</string>
     <string name="internet_available">Online</string>
     <string name="internet_unavailable">Offline</string>
+
+    <string name="onboarding_title_01">Welcome to Trek</string>
+    <string name="onboarding_description_01">Your journey towards financial freedom starts here. All investments have risks.</string>
+
+    <string name="onboarding_title_02">No account minimum</string>
+    <string name="onboarding_description_02">Top up your account with as little or as much as you like.</string>
+
+    <string name="onboarding_title_03">Everything at your fingertips</string>
+    <string name="onboarding_description_03">Stay on top of your portfolio with real-time market data, detailed research reports, and updated news on the stock market.</string>
+
+    <string name="onboarding_title_04">Easy BO Account Access</string>
+    <string name="onboarding_description_04">Opening a BO account has never been easier. Open a BO Account following a few simple steps and start your investment journey.</string>
+
+    <string name="onboarding_title_05">Trek: Learn. Invest. Grow.</string>
+    <string name="onboarding_description_05">Expand your trading knowledge with our dedicated learning center to make wise investment choices.</string>
+
+    <string name="onboarding_title_06">Account Protection</string>
+    <string name="onboarding_description_06">Trek is powered by NBL Securities Limited. Your investments are protected with encryption and advanced security measures in place.</string>
 </resources>
