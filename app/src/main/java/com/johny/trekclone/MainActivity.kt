@@ -5,7 +5,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -18,9 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.johny.trekclone.auth.onBoard.ui.OnBoardScreen
 import com.johny.trekclone.core.presentation.components.NetworkStatus
 import com.johny.trekclone.ui.theme.TrekCloneTheme
-import kotlinx.coroutines.flow.MutableStateFlow
 import org.koin.androidx.compose.koinViewModel
 
 class MainActivity : ComponentActivity() {
@@ -41,21 +43,17 @@ class MainActivity : ComponentActivity() {
                 isSplashScreenShown = isLoading
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                    Box(
+                    Column(
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
 
                         NetworkStatus(
-                            modifier = Modifier.align(Alignment.TopCenter),
+                            modifier = Modifier.fillMaxWidth(),
                             isConnected = state
                         )
-
-                        Greeting(
-                            name = "Android",
-                            modifier = Modifier.align(Alignment.Center)
-                        )
+                         OnBoardScreen()
 
                     }
 

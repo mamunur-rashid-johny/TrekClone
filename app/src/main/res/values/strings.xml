@@ -25,4 +25,6 @@
 
     <string name="onboarding_title_06">Account Protection</string>
     <string name="onboarding_description_06">Trek is powered by NBL Securities Limited. Your investments are protected with encryption and advanced security measures in place.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
 </resources>

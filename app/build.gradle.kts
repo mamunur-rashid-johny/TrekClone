@@ -102,4 +102,8 @@ dependencies {
     //<editor-fold>
     implementation (libs.lottie.compose)
     //</editor-fold>
+
+    //<editor-fold desc = "Constrain Layout">
+    implementation (libs.androidx.constraintlayout.compose)
+    //</editor-fold>
 }
